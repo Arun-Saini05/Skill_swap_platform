@@ -1,6 +1,8 @@
-import express from 'express';
-import cors from 'cors';
-import helmet from 'helmet';
+require('dotenv').config();
+
+  import express from 'express';
+  import cors from 'cors';
+  import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import mongoSanitize from 'express-mongo-sanitize';
 import dotenv from 'dotenv';
